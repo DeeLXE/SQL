@@ -1,4 +1,4 @@
---Create a cafe order menu database
+--Create a menu database for a Vietnamese Deli
 
 CREATE TABLE vietdeelight (id INTEGER, name TEXT, rating INTEGER, category TEXT, price TEXT);
 

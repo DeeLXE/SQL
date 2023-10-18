@@ -24,7 +24,10 @@ SELECT * FROM vietdeelight
 ORDER BY price DESC;
 
 --what is the avg price of items in the main category?
-SELECT * FROM vietdeelight
+SELECT
+category,
+AVG(price) AS avg_price
+FROM vietdeelight
 WHERE category="main";
 
 --what are the most 5 popular items? 

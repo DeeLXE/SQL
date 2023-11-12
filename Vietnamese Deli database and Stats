@@ -31,7 +31,7 @@ FROM vietdeelight
 WHERE category="main";
 
 --what are the most 5 popular items? 
-SELECT name, price, rating
+SELECT name, rating
 FROM vietdeelight
 ORDER BY rating desc
 LIMIT 5; 

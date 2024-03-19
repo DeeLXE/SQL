@@ -1,6 +1,11 @@
 --Create a menu database for a Vietnamese Deli
 
-CREATE TABLE vietdeelight (id INTEGER, name TEXT, rating INTEGER, category TEXT, price TEXT);
+CREATE TABLE vietdeelight (
+id INTEGER,
+name TEXT,
+rating INTEGER,
+category TEXT,
+price INTEGER);
 
 INSERT INTO vietdeelight VALUES (1, "Bo bun", 5, "main", "£6.99");
 INSERT INTO vietdeelight VALUES (2,"Ga bun", 4, "main", "£6.99");

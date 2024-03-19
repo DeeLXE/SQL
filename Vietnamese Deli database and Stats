@@ -19,18 +19,18 @@ INSERT INTO vietdeelight VALUES (14, "VN Fried chicken", 5, "starter", "£4.99")
 INSERT INTO vietdeelight VALUES (1, "Sinh to", 1, "drink", "£4.99");
 
 
---display the database ordered by price. 
+/* Display the database ordered by price */
 SELECT * FROM vietdeelight
 ORDER BY price DESC;
 
---what is the avg price of items in the main category?
+/* What is the avg price of items in the main category */
 SELECT
 category,
 AVG(price) AS avg_price
 FROM vietdeelight
 WHERE category="main";
 
---what are the most 5 popular items? 
+/* What are the most 5 popular items in the menu? */
 SELECT name, rating
 FROM vietdeelight
 ORDER BY rating desc
